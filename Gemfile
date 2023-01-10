@@ -47,6 +47,7 @@ group :development do
 
 gem "devise"
 gem "devise-jwt"
+gem "fast_jsonapi"
 
 end
 

@@ -11,7 +11,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
         status: {
           code: 200,
           message: "User created successfully",
-          data: resource,
+          data: UserSerializer.new(resource).serializable_hash[:data][:attributes],
         }
       }, status: :ok
     else 
