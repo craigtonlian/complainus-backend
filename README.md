@@ -1,6 +1,7 @@
 # ComplaiNUS React App
 This is the backend repo of a CVWO project undertaken by Craigton in AY22/23 Winter.
-It consists of two separate repositories for the [frontend](https://github.com/craigtonlian/complainus-frontend) and [backend](https://github.com/craigtonlian/complainus-backend).
+
+The CVWO project consists of two separate repositories for the [frontend](https://github.com/craigtonlian/complainus-frontend) and [backend](https://github.com/craigtonlian/complainus-backend).
 
 This Ruby on Rails API is deployed on [https://complainus-backend.herokuapp.com](https://complainus-backend.herokuapp.com).
 
