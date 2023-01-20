@@ -18,13 +18,24 @@ This Ruby on Rails API is deployed on [https://complainus-backend.herokuapp.com]
 ```bash
 bundle install
 ```
+5. Configure your local PostgreSQL username and password in config/database.yml:
 
-5. Run the app in development mode by entering this command:
+```bash
+development:
+  <<: *default
+  database: <your-database-name>
+  host: localhost
+  port: 5432
+  user: <your-username>
+  password: <your-password>
+```
+
+6. Run the app in development mode by entering this command:
 
 ```bash
 rails s
 ```
 
-6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-7. Since this is a Rails API, you should see an empty blank page.
+7. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+8. Since this is a Rails API, you should see an empty blank page.
 
